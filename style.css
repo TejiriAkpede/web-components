@@ -1,0 +1,146 @@
+ 
+.heading {
+    justify-content: space-between;
+    display: flex;
+}
+ 
+.add-icon {
+    width: 50px;
+    height: 50px;
+    fill:#D4D4EC;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ 
+}
+ 
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+    background-color:#E3E3F3;
+    color: #8E8C8E;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+ 
+.main{
+    background: white;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+ 
+p{
+    display: block;
+    margin-top: 40px;
+    margin-bottom: none;
+}
+ 
+.back-link {
+    color: #8787c1;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 20px;
+}
+ 
+h1 {
+    color:#8E8C8E;
+    padding: 2px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: bold;
+}
+ 
+ 
+.progress-bar {
+    background-color: #eaeaea;
+    border-radius: 10px;
+    padding: 2px;
+    margin-bottom: 20px;
+}
+ 
+.progress {
+    background-color: #B3b3EF;
+    width: 33%;
+    height: 10px;
+    border-radius: 8px;
+}
+ 
+hr {
+    display: block;
+    width: auto;
+    margin-top: 50px;
+}
+ 
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+ 
+.task {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+ 
+.task-checkbox {
+    margin-right: 10px;
+    border-radius: 100%;
+    background: #D0EA85;
+    color: #D0EA85;
+   
+}
+ 
+.recurring-tasks {
+   
+    text-align: center;
+    margin-top: 20px;
+}
+ 
+.recurring-tasks1{
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.recurring-task-btn {
+    font-family: "Montserrat", sans-serif;
+    font-size: large;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    color: #8E8C8E;
+    margin: 20px;
+    cursor: pointer;
+    width: 300px;
+    height: 60px;
+}
+ 
+#one {
+    background-color: #f5ED84;
+   
+}
+ 
+#two {
+    background-color:#D0EA85;
+   
+}
+ 
+ 
+#three {
+    background-color: #FBACAC;
+   
+}
+ 
+ 
+#four {
+    background-color:  #B3B3E5;
+ 
+}
